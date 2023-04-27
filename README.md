@@ -1,7 +1,7 @@
-# blpy
+# brandpy
 
-[![PyPI - Version](https://img.shields.io/pypi/v/blpy.svg)](https://pypi.org/project/blpy)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/blpy.svg)](https://pypi.org/project/blpy)
+[![PyPI - Version](https://img.shields.io/pypi/v/brandpy.svg)](https://pypi.org/project/brandpy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/brandpy.svg)](https://pypi.org/project/brandpy)
 
 -----
 
@@ -13,9 +13,9 @@
 ## Installation
 
 ```console
-pip install blpy
+pip install brandpy
 ```
 
 ## License
 
-`blpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`brandpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
