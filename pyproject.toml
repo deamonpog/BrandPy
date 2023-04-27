@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "brandpy"
 dynamic = ["version"]
-description = ''
+description = 'This is a simple python wrapper for lookup calls of Brandwatch API.'
 readme = "README.md"
 requires-python = ">=3.7"
 license = "MIT"
@@ -27,9 +27,9 @@ classifiers = [
 dependencies = ["requests","numpy"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/brandpy#readme"
-Issues = "https://github.com/unknown/brandpy/issues"
-Source = "https://github.com/unknown/brandpy"
+Documentation = "https://github.com/deamonpog/BrandPy#readme"
+Issues = "https://github.com/deamonpog/BrandPy/issues"
+Source = "https://github.com/deamonpog/BrandPy"
 
 [tool.hatch.version]
 path = "src/brandpy/__about__.py"
