@@ -1,7 +1,7 @@
-# bwpy
+# blpy
 
-[![PyPI - Version](https://img.shields.io/pypi/v/bwpy.svg)](https://pypi.org/project/bwpy)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bwpy.svg)](https://pypi.org/project/bwpy)
+[![PyPI - Version](https://img.shields.io/pypi/v/blpy.svg)](https://pypi.org/project/blpy)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/blpy.svg)](https://pypi.org/project/blpy)
 
 -----
 
@@ -13,9 +13,9 @@
 ## Installation
 
 ```console
-pip install bwpy
+pip install blpy
 ```
 
 ## License
 
-`bwpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`blpy` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

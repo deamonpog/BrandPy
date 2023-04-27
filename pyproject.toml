@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "bwpy"
+name = "blpy"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
@@ -24,15 +24,15 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = ["requests","numpy"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/bwpy#readme"
-Issues = "https://github.com/unknown/bwpy/issues"
-Source = "https://github.com/unknown/bwpy"
+Documentation = "https://github.com/unknown/blpy#readme"
+Issues = "https://github.com/unknown/blpy/issues"
+Source = "https://github.com/unknown/blpy"
 
 [tool.hatch.version]
-path = "src/bwpy/__about__.py"
+path = "src/blpy/__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = [
@@ -62,7 +62,7 @@ dependencies = [
   "ruff>=0.0.243",
 ]
 [tool.hatch.envs.lint.scripts]
-typing = "mypy --install-types --non-interactive {args:src/bwpy tests}"
+typing = "mypy --install-types --non-interactive {args:src/blpy tests}"
 style = [
   "ruff {args:.}",
   "black --check --diff {args:.}",
@@ -128,7 +128,7 @@ unfixable = [
 ]
 
 [tool.ruff.isort]
-known-first-party = ["bwpy"]
+known-first-party = ["blpy"]
 
 [tool.ruff.flake8-tidy-imports]
 ban-relative-imports = "all"
@@ -138,16 +138,16 @@ ban-relative-imports = "all"
 "tests/**/*" = ["PLR2004", "S101", "TID252"]
 
 [tool.coverage.run]
-source_pkgs = ["bwpy", "tests"]
+source_pkgs = ["blpy", "tests"]
 branch = true
 parallel = true
 omit = [
-  "src/bwpy/__about__.py",
+  "src/blpy/__about__.py",
 ]
 
 [tool.coverage.paths]
-bwpy = ["src/bwpy", "*/bwpy/src/bwpy"]
-tests = ["tests", "*/bwpy/tests"]
+blpy = ["src/blpy", "*/blpy/src/blpy"]
+tests = ["tests", "*/blpy/tests"]
 
 [tool.coverage.report]
 exclude_lines = [
